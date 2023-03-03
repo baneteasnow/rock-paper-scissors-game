@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="rules">
+        <h3>ROCK PAPER SCISSORS</h3>
+        <p>🪨 &nbsp; 📃 &nbsp; ✂️</p>
+        <h4>Rules of The Game</h4>
+        
+        <p> ✂️ <i>Scissors beats paper</i> 📃 <br />
+            📃 <i>Paper beats rock</i>  🪨  <br />
+            🪨 <i>Rock beats scissors</i> ✂️
+        </p>
+    </div>
+    <div class="game">
+        <p><b>Player One vs. Player Two</b></p>
+        <button id="playButton" onclick="resetGame(); playGame()">PLAY</button>
+        <button id="resetButton" onclick="resetGame()">RESET</button>
+        <b><i><p id="stageone">Player One</p></i></b>
+        <b><i><p id="stagetwo">Player Two</p></i></b>
+        <b><p id="result">Result</p></b>
+        <p>⁜</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
